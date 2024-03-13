@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(78, 76, 76);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+header{
+    display:inline-block;
+    width: 100%;
+    height: fit-content;
+    position: fixed;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    margin: 0 20px;
+    list-style-type: none;
+    justify-content: center;
+    text-align:center;
+}
+nav ul li a:hover{
+    background-color: rgb(24, 224, 74);
+}
+ul{
+    background-color:  rgb(46, 45, 45);
+    padding: 20px 0;
+    padding-top: 40px;
+    margin: 20px 0;
+    margin-top: -21px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+footer{
+    text-align: center;
+    color: white;
+    display: block;
+    background-color:rgb(46, 45, 45);
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: 0px;
+}
+.indexmovies{
+    display: grid; grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+.image-container{
+    position: relative;
+    display: inline-block;
+    background-color: #333;
+    padding-left: 90px;
+    width: 400px;
+}
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: black;
+    padding-right: 80px;
+    padding-left: 80px;
+}
+.image-container:hover .overlay {
+    opacity: 5;
+}
+.image-container1{
+    position: relative;
+    display: inline-block;
+    background-color: #333;
+    padding-left: 45px;
+}
+.overlay1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    color: black;
+    padding-right: 80px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+}
+.image-container1:hover .overlay1 {
+    opacity: 5;
+}
+.indexmovies1{
+    display: grid; grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding-left: 1px;
+    padding-top: 90px;
+}
+.image{
+    padding-left: 430px;
+    padding-top: 100px;
+}
+.h2{
+    padding-left: 430px;
+    text-align:left;
+    padding-right: 370px;
+}
+.a{
+    text-align: right;
+    padding-right: 370px;
+}
+.a a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    background-color: #333;
+    padding: 10px 15px 10px 15px;
+}
+.a a:hover{
+    background-color: rgb(24, 224, 74) ;
+}
+.page{
+    background-color: #333;
+}
